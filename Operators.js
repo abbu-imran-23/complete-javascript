@@ -46,3 +46,11 @@ console.log(2 + "1" + + 3); // 213
   3. + or - operand in front of a string converts it to number.
   3. + or - operand in front of a number remains number only.
 */
+
+/* Symbol Data type */
+let id = Symbol("Imran");
+let anotherId = Symbol("Imran");
+console.log(id == anotherId);
+console.log(id === anotherId);
+console.log(id);
+console.log(anotherId);
