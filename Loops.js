@@ -24,3 +24,8 @@ do {
     console.log(value);
     value++;
 } while(value <= numbers.length);
+
+/* For Of Loop */
+for (const num of numbers) {
+    console.log(num);
+}
