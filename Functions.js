@@ -45,3 +45,10 @@ function objectInFunction(user) {
 }
 
 console.log(objectInFunction(user));
+
+/* Arrow Functions */
+const greet = () => {
+    console.log("Hello Imran!");
+}
+
+console.log(greet()); // Hello Imran!
